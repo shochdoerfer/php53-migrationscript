@@ -1,0 +1,15 @@
+README
+======
+
+What is this?
+----------------
+This is the script I used to convert a PHP project from the PEAR naming and
+package conventions to the PHP 5.3 namespace conventions.
+For example a file named MyApp_Service_UserService would be named to UserService.
+References to MyApp_Service_UserService in other files will be changed to
+\MyApp\Service\UserService
+
+How to use it?
+-------------------
+Call the php script from command line and pass the directory where the files
+reside which you want to convert.
